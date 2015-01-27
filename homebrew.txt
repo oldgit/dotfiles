@@ -1,0 +1,32 @@
+# -----------------------
+# Jon's environment
+# -----------------------
+# Install brew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Formulae
+brew install ansible
+brew install git
+brew install maven
+brew install p7zip
+brew install typesafe-activator
+brew install mongodb
+
+# Install brew-cask
+brew install caskroom/cask/brew-cask
+# Add alternate versions of casks, eg. sublime-text-3 can now be installed
+brew tap caskroom/versions
+# Install casks
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install sublime-text3
+brew cask install nvalt
+brew cask install menumeters
+brew cask install java7
+brew cask install java
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install freemind
+brew cask install intellij-idea
+brew cask install robomongo
